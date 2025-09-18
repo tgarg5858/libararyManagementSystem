@@ -23,6 +23,7 @@ Library-Management/
 │── library.cpp        # Main program file
 │── bookData.txt       # Storage file (auto-created on first run)
 │── README.md          # Documentation
+│── library_flowchart.png # Workflow diagram
 ```
 
 ---
@@ -70,6 +71,12 @@ Enter your choice:
 * **Add Book** → Adds entry to `bookData.txt` as `ID*Name*Author`.
 * **Show All Books** → Displays formatted list of all books.
 * **Delete/Update** → Creates a temporary file and replaces `bookData.txt` with updated content.
+
+---
+
+## 🔄 Workflow Diagram
+
+![Library Management System Flowchart](library_flowchart.png)
 
 ---
 
